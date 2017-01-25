@@ -2,7 +2,7 @@
 function initMap() {
 	var PUUUR_TYPE = 'puur-type';
 	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 0,
+		zoom: 8,
 		center: {lat: 25.657536, lng: -100.366742},
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, PUUUR_TYPE]
